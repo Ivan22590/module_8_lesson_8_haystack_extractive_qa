@@ -1,0 +1,34 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Секреты и локальный конфиг
+.env
+.env.local
+*.local
+
+# Python-кэш и сборка
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / ОС
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log

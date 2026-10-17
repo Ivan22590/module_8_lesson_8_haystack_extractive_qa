@@ -1,0 +1,20 @@
+# Haystack 3.x — фреймворк пайплайнов/агентов/RAG (актуальная ветка; 2.x — архивная)
+haystack-ai>=3.4.0,<4
+pinecone-haystack>=6.4.0,<7
+
+# Telegram-бот
+pyTelegramBotAPI>=4.25.0
+
+# Сеть и утилиты
+requests>=2.32.0
+beautifulsoup4>=4.12.3
+python-dotenv>=1.0.1
+
+# ============================================================================
+# Опционально: Extractive QA (дословные цитаты с точным местом в тексте)
+# По мотивам туториала 34_Extractive_QA_Pipeline.ipynb.
+# Тянет transformers + torch (крупная установка ~2 ГБ).
+# Если не нужно — оставьте USE_EXTRACTIVE_READER=false и не устанавливайте:
+#     pip install transformers-haystack
+# ============================================================================
+transformers-haystack
